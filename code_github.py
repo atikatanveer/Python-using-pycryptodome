@@ -1,8 +1,7 @@
-import time
 from Crypto.Hash import SHA256
 from Crypto.Random import get_random_bytes
 from Crypto.Util import strxor
-import time
+
 
 # PUF simulation using a hash function
 def puf_simulation(input_data):
